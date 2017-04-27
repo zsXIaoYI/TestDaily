@@ -17,6 +17,10 @@ public class LoadClass {
         Class  clazz1 = new Person().getClass();
 
         Class clazz2 = Person.class;
+
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        Class<?> aClass = loader.loadClass("cn.zsza.reflect.Person");
+
         System.out.println(clazz);
         String name = clazz.getCanonicalName();
         System.out.println("name="+name);
