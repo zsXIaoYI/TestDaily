@@ -8,6 +8,7 @@ public class Main {
             long bb = 3;
             float f = 1.2344f;
             double d = 2.24;
+
             System.out.println(f);
         } catch (Exception e) {
             e.printStackTrace();
