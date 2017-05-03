@@ -388,4 +388,17 @@ public class Exercise_Daily {
 
     }
 
+    /**
+     * 位运算
+     * 位运算
+     */
+    @Test
+    public void testBit(){
+        int a = 8;
+        int b = a << 1;   // 左移操作，乘以2
+        int c = a >> 1;   // 右移操作，除以2
+        System.out.println("b=" + b);
+        System.out.println("c=" + c);
+    }
+
 }
