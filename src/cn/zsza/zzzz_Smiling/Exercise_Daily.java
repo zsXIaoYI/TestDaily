@@ -399,6 +399,15 @@ public class Exercise_Daily {
         int c = a >> 1;   // 右移操作，除以2
         System.out.println("b=" + b);
         System.out.println("c=" + c);
+
+        int d = 8 & 6;   // 与操作
+        int e = 8 | 6;   // 或操作
+        int f = ~ 2;     // 非操作
+        int g = 8 ^ 6;    // 异或操作
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
     }
 
 }
